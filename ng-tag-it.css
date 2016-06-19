@@ -1,0 +1,49 @@
+.ng-tag-it {
+	min-height:				18px;
+	width:						100%;
+	overflow: 				auto;
+	background-color:	#fff;
+	color:						#555;
+	border:						1px solid #ccc;
+	border-radius:		3px;
+	box-shadow:				inset 0 1px 1px rgba(0,0,0,.075);
+	font-family:			'Open Sans', sans-serif;
+	font-size:				11px;
+}
+input {
+	float: 						left;
+	display: 					block;
+	border:						none;
+	background-color:	transparent;
+	border-radius:		3px;
+	outline:					none;
+	width:						110px;
+}
+li {
+	min-height: 			16px;
+	line-height:			12px;
+	list-style:				none;
+	display:					inline-block;
+	padding:					2px 15px 1px 3px;
+	position: 				relative;
+	background:       rgba(0, 0, 0, 0) -webkit-linear-gradient(#ededed 0%, #c4c4c4 100%) repeat scroll 0 0;
+	background:       rgba(0, 0, 0, 0) -moz-linear-gradient(#ededed 0%, #c4c4c4 100%) repeat scroll 0 0;
+	background:       rgba(0, 0, 0, 0) -o-linear-gradient(#ededed 0%, #c4c4c4 100%) repeat scroll 0 0;
+	background:       rgba(0, 0, 0, 0) linear-gradient(#ededed 0%, #c4c4c4 100%) repeat scroll 0 0;
+	box-shadow: 			0 1px 0 rgba(255, 255, 255, 0.6) inset;
+	border: 					1px solid #b6b6b6;
+	color:						#4f4f4f;
+	font-weight:			normal;
+	display:					block;
+	float: 						left;
+	margin:						0 2px 1px 0;
+	border-radius:		3px;
+}
+i {
+	position: 				absolute;
+	top:							50%;
+	right: 						0.1em;
+	margin-top: 			-8px;
+	cursor: 					pointer;
+	line-height: 			17px;
+}
